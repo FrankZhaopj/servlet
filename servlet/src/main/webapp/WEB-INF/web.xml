@@ -5,4 +5,14 @@
 <web-app>
 	<display-name>Archetype Created Web Application</display-name>
 
+	<servlet>
+		<servlet-name>myServlet</servlet-name>
+		<servlet-class>com.zhaopj.servlet.MyServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>myServlet</servlet-name>
+		<url-pattern>/MyServlet/web</url-pattern>
+		<url-pattern>/MyServlet/web2</url-pattern>
+	</servlet-mapping>
+
 </web-app>

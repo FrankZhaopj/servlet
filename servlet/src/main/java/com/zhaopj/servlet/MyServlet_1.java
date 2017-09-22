@@ -2,7 +2,6 @@ package com.zhaopj.servlet;
 
 import java.io.IOException;
 
-import javax.jws.WebService;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
